@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Phase II Todo Application - Implementation Complete
 
 ## Overview
@@ -315,4 +316,22 @@ This project is part of Phase II specifications for a full-stack todo applicatio
 ## Support
 
 For issues or questions, refer to the specifications in `specs/001-phase-ii-specs/`.
+=======
+# Backend Source Code
+
+This directory contains the FastAPI backend implementation for the Phase II Todo application.
+
+## Structure
+
+- `src/` - Application source code
+  - `models/` - SQLModel database models
+  - `api/` - API routes and schemas
+  - `services/` - Business logic layer
+  - `middleware/` - Authentication and other middleware
+  - `config.py` - Configuration management
+  - `database.py` - Database connection
+  - `main.py` - FastAPI application entry point
+- `tests/` - Test suite
+- `requirements.txt` - Python dependencies
+>>>>>>> 65d768e (first commit)
 "# phase-2-fullstacktodo" 
