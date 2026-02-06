@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(test:*)",
+      "Bash(powershell.exe:*)",
+      "Bash(powershell:*)",
+      "Bash(if:*)",
+      "Bash(then echo \"GITIGNORE_EXISTS\")",
+      "Bash(else echo \"NO_GITIGNORE\")",
+      "Bash(fi)",
+      "Bash(.specify/scripts/bash/create-phr.sh:*)"
+    ]
+  }
+}
